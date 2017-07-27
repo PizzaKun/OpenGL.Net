@@ -41,7 +41,9 @@ namespace OpenGL
 		{
 			try {
 				Initialize();
-			} catch (NotSupportedException) {
+			} 
+            catch (NotSupportedException) 
+            {
 				// Fail-safe
 			}
 		}

@@ -7298,7 +7298,7 @@ namespace OpenGL
 				{
 					Debug.Assert(Delegates.pglGenVertexArrays != null, "pglGenVertexArrays not implemented");
 					Delegates.pglGenVertexArrays((Int32)arrays.Length, p_arrays);
-					LogCommand("glGenVertexArrays", null, arrays.Length, arrays					);
+					LogCommand("glGenVertexArrays", null, arrays.Length, arrays);
 				}
 			}
 			DebugCheckErrors(null);
