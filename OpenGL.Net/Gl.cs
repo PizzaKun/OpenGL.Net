@@ -62,6 +62,9 @@ namespace OpenGL
 			if (envGlInit != null && envGlInit == "NO")
 				return;
 
+			// Cache imports & delegates
+            BindAPI<Gl>(Library, GetProcAddress.GetProcAddressOS);
+
 			// Environment options
 			LogComment("OpenGL.Net is initializing");
 
