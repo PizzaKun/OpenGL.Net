@@ -951,6 +951,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
-    <PostBuildEvent>$(ProjectDir)\..\BindingsGen\bin\$(ConfigurationName)\BindingsGen.exe --assembly "$(TargetPath)"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
